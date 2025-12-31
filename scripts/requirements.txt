@@ -1,0 +1,4 @@
+prompt_toolkit==3.0.52
+PyYAML==6.0.3
+typst==0.14.5
+wcwidth==0.2.14

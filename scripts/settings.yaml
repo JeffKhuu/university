@@ -1,0 +1,3 @@
+# Project root folder from root directory
+# NOTE: Make sure the path ends with "/" to denote a path
+project_root: "/home/j/university/"
