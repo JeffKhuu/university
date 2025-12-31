@@ -1,0 +1,7 @@
+[package]
+name = "lecture-notes-core"
+version = "1.0.0"
+entrypoint = "lib.typ"
+authors = ["Jeff Khuu"]
+license = "MIT"
+description = "Templating and snippets for university-level lecture notetaking."

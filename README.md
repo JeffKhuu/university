@@ -6,13 +6,16 @@ TUI written in prompt-toolkit python utilzing Typst for typsetting
 2. Install `typst` for notetaking
 2. Clone the project repository
 3. Create a Python 
-3. Move the courses script into a valid binaries directory. For example from the `scripts` directory,
+4. Move the courses script into a valid binaries directory.
+5. Move the Typst package into a local packages directory.
+
 ```bash
 sudo snap install typst
 sudo snap install yq
 git clone https://github.com/JeffKhuu/university.git
 python3 -m venv venv
 mv courses ~/.local/bin/
+mv lecture-notes-core ~/.local/share/typst/packages/local/
 ```
 2. Follow the steps under *Setup for New Semesters* below to link a semester directory
 4. Use the `courses` command to run the TUI
